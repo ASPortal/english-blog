@@ -1,0 +1,140 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  margin: 0px;
+  
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pages{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.25rem;
+  
+  background-color: darkcyan;
+}
+.icon{
+  margin: 5px;
+  width: 10%;
+  height: 100%;
+}
+.pages-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  width: 90%;
+}
+.page{
+  text-decoration: none;
+  color: white;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: darkcyan;
+  color: white;
+
+  font-size: 3rem;
+  
+  height: 250px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-color: white;
+  color: black;
+
+  padding: 10px;
+  
+  min-height: 100vh;
+  max-height: 100%;
+}
+.founders-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  width: 95%;
+}
+.founder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 0px 5px 0px rgb(10,10,10);
+
+  border-radius: 10px;
+  
+  width: 150px;
+  height: 250px;
+}
+.founder-image{
+  height: 100px;
+  width: 100px;
+
+  border-radius: 50px;
+}
+.contributers-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  width: 95%;
+}
+.contributer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 0px 5px 0px rgb(10,10,10);
+
+  border-radius: 10px;
+
+  width: 150px;
+  height: 250px;
+}
+.contributer-image{
+  height: 100px;
+  width: 100px;
+
+  border-radius: 50px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-color: hsl(0, 0%, 15%);
+  color: white;
+
+  font-size: 0.5rem;
+
+  height: 250px;
+}
