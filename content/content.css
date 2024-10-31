@@ -97,6 +97,7 @@ body{
 }
 .health-dimension:hover{
   width: 97.5%;
+  transition: all 0.75s;
 }
 .influencers{
   width: 90%;
