@@ -52,7 +52,7 @@ body{
 .main{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 
   text-align: center;
@@ -60,7 +60,8 @@ body{
   background-color: white;
   color: black;
 
-  min-height: 100vh;
+  min-height: 850px;
+  height: 100vh;
   max-height: 100%;
 }
 .preview{
@@ -69,12 +70,29 @@ body{
   justify-content: center;
   align-items: center;
 
+  background-color: hsl(0, 0%, 80%);
+  color: black;
+  
+  border: 1px solid hsl(0, 0%, 95%);
+  border-radius: 5px;
+
+  box-shadow: 0px 0px 5px 0px hsl(0,0%,95%);
+
   width: 90%;
-  height: 300px;
+  height: 250px;
+}
+.preview:hover{
+  width: 92.5%;
+  transition: all 0.75s;
 }
 .read-more{
   text-decoration: none;
-  color: navy;
+  color: darkcyan;
+}
+.read-more:hover{
+  color: cyan;
+  font-size: 1.25rem;
+  transition: all 0.75s;
 }
 .footer{
   display: flex;
